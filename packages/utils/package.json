@@ -1,11 +1,11 @@
 {
-  "name": "@helin/utils",
+  "name": "@hrlin/utils",
   "version": "1.0.0",
   "description": "javascript utils",
   "keywords": [
     "utils"
   ],
-  "author": "helin <flynnzhl@qq.com>",
+  "author": "hrlin <flynnzhl@qq.com>",
   "homepage": "https://github.com/flynna/packages#readme",
   "license": "ISC",
   "main": "lib/index.js",
