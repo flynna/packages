@@ -5,7 +5,7 @@
   "keywords": [
     "utils"
   ],
-  "author": "zhanghelin <flynnzhl@qq.com>",
+  "author": "helin <flynnzhl@qq.com>",
   "homepage": "https://github.com/flynna/packages#readme",
   "license": "ISC",
   "main": "lib/index.js",
@@ -37,5 +37,6 @@
   },
   "dependencies": {
     "dayjs": "^1.11.4"
-  }
+  },
+  "gitHead": "54a57c2a4b793d7065e76f5e8f956defe964f93c"
 }
