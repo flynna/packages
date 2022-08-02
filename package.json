@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "test": "jest",
+    "test:debug": "jest --watchAll",
     "prepare": "husky install",
     "lint": "eslint --ext .js,.ts packages/**/src/**/*",
     "lint-staged": "lint-staged"
