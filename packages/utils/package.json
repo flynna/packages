@@ -29,7 +29,6 @@
     "build": "npm run clean && npm run compile",
     "clean": "rm -rf ./lib",
     "compile": "tsc -p tsconfig.json",
-    "tslint": "tslint -c tslint.json -p tsconfig.json",
     "prepublishOnly": "npm run build"
   },
   "bugs": {
