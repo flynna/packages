@@ -38,11 +38,5 @@
   "dependencies": {
     "dayjs": "^1.11.4"
   },
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all",
-    "printWidth": 100,
-    "arrowParens": "always"
-  },
   "gitHead": "54a57c2a4b793d7065e76f5e8f956defe964f93c"
 }
