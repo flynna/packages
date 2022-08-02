@@ -7,7 +7,10 @@ module.exports = {
 
   parser: '@typescript-eslint/parser',
 
-  extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+  ],
 
   parserOptions: {
     ecmaVersion: 2020,
@@ -38,7 +41,10 @@ module.exports = {
 
   overrides: [
     {
-      files: ['**/__tests__/*.{j,t}s?(x)', '**/tests/unit/**/*.spec.{j,t}s?(x)'],
+      files: [
+        '**/__tests__/*.{j,t}s?(x)',
+        '**/tests/unit/**/*.spec.{j,t}s?(x)',
+      ],
       env: {
         jest: true,
       },

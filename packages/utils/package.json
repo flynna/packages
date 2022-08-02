@@ -30,7 +30,6 @@
     "clean": "rm -rf ./lib",
     "compile": "tsc -p tsconfig.json",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
-    "lint": "eslint --ext .js,.ts src",
     "prepublishOnly": "npm run build"
   },
   "bugs": {

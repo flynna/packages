@@ -4,7 +4,7 @@
   "scripts": {
     "test": "jest",
     "prepare": "husky install",
-    "lint": "lerna run lint",
+    "lint": "eslint --ext .js,.ts packages/**/src/**/*",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
